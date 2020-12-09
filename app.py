@@ -7,7 +7,7 @@ check_use_password = input("Is is a private account? (Y/N): ")
 
 if check_use_password == "Y" or check_use_password == "y": 
 	your_username = input("Enter your username: ")
-	your_password = input("Enter your password: ")
+	your_password = getpass.getpass(prompt='Enter your password: ', stream=None) 
 else: pass
 
 instagram = Instagram()
