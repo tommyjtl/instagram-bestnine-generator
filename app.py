@@ -1,6 +1,6 @@
 from igramscraper.instagram import Instagram
 from datetime import datetime
-import time, sys, requests, os
+import time, sys, requests, os, getpass
 
 account_input = input("Enter an account username: ")
 check_use_password = input("Is is a private account? (Y/N): ")
