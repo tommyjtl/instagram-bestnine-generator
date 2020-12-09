@@ -1,4 +1,4 @@
-An Instagram Best Nine data generator. 
+A data generator for you best nine posts of a year on Instagram. 
 
 requirements.txt:
 
